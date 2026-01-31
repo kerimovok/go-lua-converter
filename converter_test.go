@@ -81,8 +81,8 @@ func TestMapToTable(t *testing.T) {
 	defer L.Close()
 
 	m := map[string]interface{}{
-		"name":  "John",
-		"age":   30,
+		"name":   "John",
+		"age":    30,
 		"active": true,
 	}
 
